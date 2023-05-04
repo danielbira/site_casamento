@@ -11,19 +11,77 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="hero">
         <div class="container">
             <img class="hero__logo" src="./images/logo.png" alt="logo">
             <p class="hero__text">
-                Casamento Thais & Daniel começa em<br> 500d 12h 20m 15s
+                Casamento Thais & Daniel começa em                
+                <div class="box-timer-numbers">
+                    <p><span class="day">00</span> Dias</p>
+                    <p>:</p>
+                    <p><span class="hour">00</span> Horas</p>
+                    <p>:</p>
+                    <p><span class="minute">00</span> minutos</p>
+                    <p>:</p>
+                    <p><span class="second">00</span> segundos</p>
+                </div>
             </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Aparador Hampel -  São Francisco de Paula - RS
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        22/08/2025 às 16hr
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Confirme sua presença
+                </a>
+            </div>
         </div>
     </header>
+    <section class="event event--casal">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Casal Thais e Daniel</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos officia dolorem in numquam, veniam, quas atque asperiores suscipit illum vitae quam non. Quisquam quas consequuntur commodi tenetur voluptas iusto praesentium!</br></br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, ut vitae! Quasi animi mollitia qui laudantium repellendus cum molestias quam, quo perspiciatis fuga, autem magnam est blanditiis ullam voluptatum voluptas.
+            </div>
+            <img class="event__image" src="./images/casal.jpeg" alt="casal">
+        </div>
+    </section>
+    <section class="event event--thais event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Sobre Thais</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos officia dolorem in numquam, veniam, quas atque asperiores suscipit illum vitae quam non. Quisquam quas consequuntur commodi tenetur voluptas iusto praesentium!</br></br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, ut vitae! Quasi animi mollitia qui laudantium repellendus cum molestias quam, quo perspiciatis fuga, autem magnam est blanditiis ullam voluptatum voluptas.
+            </div>
+            <img class="event__image" src="./images/thais.jpeg" alt="thais">
+        </div>
+    </section>
+    <section class="event event--daniel">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Sobre Daniel</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos officia dolorem in numquam, veniam, quas atque asperiores suscipit illum vitae quam non. Quisquam quas consequuntur commodi tenetur voluptas iusto praesentium!</br></br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, ut vitae! Quasi animi mollitia qui laudantium repellendus cum molestias quam, quo perspiciatis fuga, autem magnam est blanditiis ullam voluptatum voluptas.
+            </div>
+            <img class="event__image" src="./images/daniel.jpeg" alt="daniel">
+        </div>
+    </section>
 
-
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="/src/scripts/main.js"></script>
+
 </body>
 </html>
